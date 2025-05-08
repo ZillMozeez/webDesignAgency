@@ -79,11 +79,17 @@ body {
     padding: 10px 0;
     padding-left: 10px;
   }
+  .form-group input:focus {
+    outline: none;
+  }
   .form-group #message {
     width: 99.8%;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px 0;
+  }
+  .form-group #message:focus {
+    outline: none;
   }
   .form-group .btn {
     display: inline-block;
@@ -152,11 +158,17 @@ body {
       padding: 10px 0;
       padding-left: 10px;
     }
+    .form-group input:focus {
+      outline: none;
+    }
     .form-group #message {
       width: 100%;
       border: none;
       border-radius: 5px;
       padding: 10px 0;
+    }
+    .form-group #message:focus {
+      outline: none;
     }
     .form-group .btn {
       display: inline-block;
