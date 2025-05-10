@@ -6,42 +6,34 @@ body {
     flex-direction: column;
     min-height: 95vh;
   }
-  
   .main {
     flex: 1;
   }
-  
   h1 {
     font-size: 5rem;
   }
-
   .main h1 span {
     color: #030388;
   }
   #info-section {
     margin-bottom: 300px;
   }
-
   .card {
     width: 45%;
     line-height: 1.4;
     font-size: 16px;
   }
-
   .card .tile-image {
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 20px;
   }
-
   .card.left {
     float: left;
   }
-
   .card.right {
     float: right;
   }
-  
   .clr {
     clear: both;
   }
@@ -60,7 +52,6 @@ body {
     color: #fcf802;
     font-size: 1.25rem;
   }
-
   form {
     display: flex;
     flex-direction: column;
@@ -108,7 +99,6 @@ body {
     color: #fcf802;
     cursor: pointer;
   }
-
   footer {
     text-align: center;
     color: #111;
