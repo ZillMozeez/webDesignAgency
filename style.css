@@ -25,6 +25,7 @@ body {
   .card {
     width: 45%;
     line-height: 1.4;
+    font-size: 16px;
   }
 
   .card .tile-image {
