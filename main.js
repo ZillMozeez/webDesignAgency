@@ -22,11 +22,11 @@ form.addEventListener('submit', (e) => {
     }
 });
 
-function sendMail(){
-    let params = {
-        name : document.getElementById("name").value,
-        email : document.getElementById("email").value,
-        message : document.getElementById("message").value
-    }
-    emailjs.send("service_dmxse6z", "template_ud8lsjn", params).then(alert("Message sent!"))
-}
+// function sendMail(){
+//     let params = {
+//         name : document.getElementById("name").value,
+//         email : document.getElementById("email").value,
+//         message : document.getElementById("message").value
+//     }
+//     emailjs.send("service_dmxse6z", "template_ud8lsjn", params).then(alert("Message sent!"))
+// }
