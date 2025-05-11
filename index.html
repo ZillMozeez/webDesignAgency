@@ -9,6 +9,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "nuqKT-A0sb4HM8AeJ",
+      });
+    })();
+    </script>
 </head>
 
 <body>
@@ -50,7 +60,7 @@
               <textarea name="message" id="message" cols="20" rows="5"></textarea>
             </div class="form-group">
             <div class="form-group">
-              <button class="btn" value="submit">Send Message</button>
+              <button class="btn" value="submit" onclick="sendMail()">Send Message</button>
             </div>
           </form>
   
